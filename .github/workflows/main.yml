@@ -3,11 +3,9 @@ name: Vikas Dixit
 on:
   push:
     brnaches:  [ main ]
-
- jobs:
+jobs:
    demo:
      runs-on: ubuntu-latest
-
-     steps:
-       -name:  Greetings
-         run:  echo "Hello World!"
+      steps:
+        - name: Greetings
+          run: echo "Hello World!"
