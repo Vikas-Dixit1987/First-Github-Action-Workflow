@@ -2,10 +2,12 @@ name: Vikas Dixit
 
 on:
   push:
-    brnaches:  [ main ]
+    branches: [main]
+
 jobs:
-   demo:
-     runs-on: ubuntu-latest
-      steps:
-        - name: Greetings
-          run: echo "Hello World!"
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greetings
+        run: echo "Hello World!"
+
